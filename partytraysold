@@ -1,0 +1,145 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Yummylicious</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link  id="favicon" href="food_icon.png" rel="shortcut icon" type="image/x-icon"  /> 
+  <link rel="stylesheet" href="./HeaderDiv.css">
+  
+  <style> 
+  
+  
+  body
+{
+ background-color: rgb(234,234,234);
+ 
+}
+  
+  
+  
+  .container-fluid {
+    padding-left: 110px;
+	padding-top:50px;
+	padding-bottom:50px;
+  
+ 
+}
+
+.horizontal_dotted_line {
+  display: flex;
+  width: 100%;
+ font-weight: Bold;
+  padding: 15px;
+} 
+.horizontal_dotted_line:after {
+  border-bottom: 2px dotted black;
+  content: '';
+  flex: 1;
+ } 
+ .horizontal_dotted_line_half {
+  display: flex;
+  width: 50%;
+ font-weight: Bold;
+  padding: 15px;
+} 
+.horizontal_dotted_line_half:after {
+  border-bottom: 2px dotted black;
+  content: '';
+  flex: 1;
+ }
+
+
+
+
+  </style>
+</head>
+
+
+
+ 
+
+
+ <div id="Headerdiv" >
+
+  <p>Yummylicious</p>
+  <h1>Always Fresh!!</h1> 
+<!--  <img src="halal.png" style="float:right;width:100px;height:100px;>-->
+  
+   
+  </div>
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="margin-bottom:0 !important" style="font-size: '40px';">
+ <a class="navbar-brand" href=index.html > <img src="food_icon.png " width="50" height="50" alt="" align="top"> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar" style="font-family: 'Tangerine'"        >
+    <ul class="navbar-nav">
+      <li class="na">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="menu.html">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="partytrays.html">PartyTrays</a>
+      </li>    
+	  <li class="nav-item">
+        <a class="nav-link" href="contact5.html">Contact</a>
+		
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+
+
+
+<div class="container-fluid" color=rgb(234,234,234)  >
+   <h1>PARTY TRAYS</h1>
+     <p>Serving only between 12-7pm daily.</p>
+  
+  <div class="row">
+    <div class="horizontal_dotted_line">RICE</div>
+	<br>
+   
+	   <div class="col-sm-12" style="background-color:rgb(234,234,234);">Chicken Biryani Small (SERVE FOR 05-08 PEOPLE)....... $25.00</div>
+    </div>
+	</br>
+ <div class="row">
+   
+	<div class=" row horizontal_dotted_line_half" style="background-color:rgb(234,234,234);">Chicken Biryani Large (SERVE FOR 10-12 PEOPLE)</div><p> $55</p>
+	
+  
+	 
+    </div>	
+	 
+  <div class="row">
+	<div class="horizontal_dotted_line_half" style="background-color:rgb(234,234,234);">Veal Biryani Large (SERVE FOR 10-12 PEOPLE)........... $80.00</div>
+     <div class="col-sm-12" style="background-color:rgb(234,234,234);">Veal Biryani Small (SERVE FOR 05-07 PEOPLE).......... $45.00</div>
+    </div>
+	</br>
+<div class="row">
+   <div class="horizontal_dotted_line">CURRY</div>
+      
+	  <div class="col-sm-12" style="background-color:rgb(234,234,234);">Veal Qorma Large........$80.00</div>
+	
+
+
+
+
+
+
+

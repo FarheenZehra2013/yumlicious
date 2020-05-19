@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+<title>yumlicious</title>
+<h2>menu</h2>
+<p>our main dishes will be served daily between 12-7pm.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>main dishes</th>
+    <th>prices</th>
+<th>	size per plate</th>
+  
+  </tr>
+  <tr>
+    <td>chicken biryani</td>
+    <td>6$</td>
+    <td>small,medium,large</td>
+  </tr>
+  <tr>
+    <td>nihari</td>
+    <td>7$</td>
+    <td>small,medium,large</td>
+  </tr>
+  <tr>
+    <td>beef boti roll</td>
+    <td>8.99$</td>
+    <td>each</td>
+  </tr>
+</table>
+
+<p>Try to change the padding to 5px.</p>
+
+</body>
+</html>

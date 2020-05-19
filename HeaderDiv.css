@@ -1,0 +1,127 @@
+body
+{
+ background-color: rgb(234,234,208);
+ 
+}
+/* This is top header block */
+#Headerdiv {
+   
+   background-image: url(./halal2.png),
+      url(./gold6.jpg),
+      linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  background-repeat:no-repeat,
+      repeat,
+      no-repeat;
+  background-position: bottom right,left,right;
+  background-size: auto,10%;
+   padding-top: 0px;
+    padding-bottom:0px;
+	height:170px;
+   margin:-5;
+    text-align: center;
+	font-family: 'Tangerine', serif;
+  font-size: 68px;
+  text-shadow: 4px 4px 4px #aaa;
+  color:red;
+ 
+
+}
+@media screen and (max-width:600px){
+#Headerdiv {
+   
+   
+  font-size: 60px;
+    line-height:0.9;
+
+}
+}
+@media screen and (min-width:600px){
+#Headerdiv {
+   
+  
+  font-size: 68px;
+ 
+ 
+
+}
+}
+.navbar
+{
+font-family: 'Tangerine', serif;
+  font-size: 40px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+/* This is footer -bootstrap jumbotron component */
+ .jumbotron {
+     background-image: url(gold6.png),
+      url(./gold6.jpg),
+      linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  background-repeat:no-repeat,
+      repeat,
+      no-repeat;
+  background-position: bottom right,left,right;
+  background-size: auto,10%;
+  
+   padding-top: 0px;
+    padding-bottom:0px;
+	height:170px;
+	font-family: 'Tangerine', serif;
+  font-size: 68px;
+  text-shadow: 4px 4px 4px #aaa;
+  color:red;
+
+}
+
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+	  margin: auto;
+  }
+ 
+
+.carousel-item {
+    height: 800px;
+	width:100%;
+	margin: auto;
+}
+
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+
+/*this is ticker*/
+@keyframes ticker {
+    0% { transform: translate3d(0, 0, 0); }
+    100% { transform: translate3d(-100%, 0, 0); }
+  }
+  .tcontainer{
+    width: 100%;
+    overflow: hidden;
+  }
+  .ticker-wrap {
+    width: 100%;
+    padding-left: 100%;
+    background-color: red;
+  }
+  .ticker-move {
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker;
+    animation-duration: 35s;
+  }
+  .ticker-move:hover{
+    animation-play-state: paused;
+  }
+  .ticker-item{
+    display: inline-block;
+    padding: 0 2rem;
+  }
